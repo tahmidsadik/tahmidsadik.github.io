@@ -2,7 +2,7 @@
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
 <url>
 <loc>
-http://tahmid.me404.html
+http://tahmid.me/404.html
 </loc>
 <lastmod>
 2015-06-28
@@ -10,7 +10,7 @@ http://tahmid.me404.html
 </url>
 <url>
 <loc>
-http://tahmid.mearchives.html
+http://tahmid.me/archives.html
 </loc>
 <lastmod>
 2015-06-28
@@ -18,7 +18,7 @@ http://tahmid.mearchives.html
 </url>
 <url>
 <loc>
-http://tahmid.meindex.html
+http://tahmid.me/index.html
 </loc>
 <lastmod>
 2015-06-28
@@ -26,7 +26,7 @@ http://tahmid.meindex.html
 </url>
 <url>
 <loc>
-http://tahmid.meposts/2014-06-28-the-cartesian-dream.html
+http://tahmid.me/posts/2014-06-28-the-cartesian-dream.html
 </loc>
 <lastmod>
 2015-06-28
@@ -34,7 +34,7 @@ http://tahmid.meposts/2014-06-28-the-cartesian-dream.html
 </url>
 <url>
 <loc>
-http://tahmid.metags/clojure.html
+http://tahmid.me/tags/clojure.html
 </loc>
 <lastmod>
 2015-06-28
@@ -42,7 +42,7 @@ http://tahmid.metags/clojure.html
 </url>
 <url>
 <loc>
-http://tahmid.metags/cryogen.html
+http://tahmid.me/tags/cryogen.html
 </loc>
 <lastmod>
 2015-06-28
