@@ -6,7 +6,7 @@
 clj-rss
 </generator>
 <title>
-Lazy Lambda
+(map reduce filter)
 </title>
 <link>
 http://tahmid.me
@@ -15,7 +15,7 @@ http://tahmid.me
 (map reduce filter)
 </description>
 <lastBuildDate>
-Sun, 28 Jun 2015 16:21:46 +0600
+Sun, 28 Jun 2015 18:22:05 +0600
 </lastBuildDate>
 <item>
 <guid>
