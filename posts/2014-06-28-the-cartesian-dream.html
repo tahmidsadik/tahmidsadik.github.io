@@ -66,7 +66,7 @@
 </div>
 <div>
     
-    <p>I was always fascinated by the use of higher order functions. They are small, <em>elegant</em>, consists of <strong>core</strong> building blocks of any programming language, functions. Now, functions are simple. We all know about functions, so let's focus on the difference between them.</p><ul><li>Higher order functions may ***take other functions*** as input.</li><li>Higher order functions may ***return other functions*** as output.</li></ul><p>Let's write a function that will return another function ( just think about it for a second, You are generating a function dynamically, whoa ).</p><p>Here's an example in clojure</p><pre><code class="clojure">&#40;defn multiple-of-x? &#91;x&#93;
+    <p>I was always fascinated by the use of higher order functions. They are small, <em>elegant</em>, consists of <strong>core</strong> building blocks of any programming language, functions. Now, functions are simple. We all know about functions, so let's focus on the difference between them.</p><ul><li>Higher order functions may <i><strong>take other functions</strong></i> as input.</li><li>Higher order functions may <i><strong>return other functions</strong></i> as output.</li></ul><p>Let's write a function that will return another function ( just think about it for a second, You are generating a function dynamically, whoa ).</p><p>Here's an example in clojure</p><pre><code class="clojure">&#40;defn multiple-of-x? &#91;x&#93;
   &#40;fn &#91;n&#93; &#40;zero? &#40;rem n x&#41;&#41;&#41;&#41;
 
 &#40;&#40;multiple-of-x? 3&#41; 15&#41;         ;; true
