@@ -13,14 +13,14 @@
         ga('send', 'pageview');
 
     </script>
-    <title>Lazy Lambda</title>
+    <title>Lazy Lambda: Posts Tagged &quot;functional-programming&quot;</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href='http://fonts.googleapis.com/css?family=Alegreya:400italic,700italic,400,700' rel='stylesheet'
           type='text/css'>
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.1/styles/default.min.css">
-    <link href="css/screen.css" rel="stylesheet" type="text/css" />
+    <link href="../css/screen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
 
@@ -38,7 +38,7 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">
-                <li  class="active" ><a href="/index.html">Home</a></li>
+                <li ><a href="/index.html">Home</a></li>
                 <li
                 ><a href="/archives.html">Archives</a></li>
                 
@@ -56,47 +56,17 @@
         <div class="col-lg-9">
             <div id="content">
                 
-<div id="post">
-    <div id="post-header">
-    <div id="post-meta" class="row">
-        <div class="col-lg-6">June 28, 2014</div>
-        
+<div id="posts-by-tag">
+    <div id="page-header">
+        <h2>Posts Tagged &quot;functional-programming&quot;</h2>
     </div>
-    <h2>The Cartesian Dream or Higher Order Functions</h2>
-</div>
-<div>
+    <ul>
     
-    <p>I was always fascinated by the use of higher order functions. They are small, <em>elegant</em>, consists of <strong>core</strong> building blocks of any programming language, functions. Now, functions are simple. We all know about functions, so let's focus on the difference between them.</p><ul><li>Higher order functions may ***take other functions*** as input.</li><li>Higher order functions may ***return other functions*** as output.</li></ul><p>Let's write a function that will return another function ( just think about it for a second, You are generating a function dynamically, whoa ).</p><p>Here's an example in clojure</p><pre><code class="clojure">&#40;defn multiple-of-x? &#91;x&#93;
-  &#40;fn &#91;n&#93; &#40;zero? &#40;rem n x&#41;&#41;&#41;&#41;
-
-&#40;&#40;multiple-of-x? 3&#41; 15&#41;         ;; true
-&#40;&#40;multiple-of-x? 5&#41; 15&#41;         ;; true
-&#40;&#40;multiple-of-x? 9&#41; 15&#41;         ;; false
-</code></pre>The function multiple-of-x? takes a number x as input and returns a functionwhich itself takes another number n as input and returns true if n isa multiple of x, otherwise false.<br /><br /><p>Writing higher order functions might take some time, but they also tend to become much more useful. They also force you to think about generalising a problem and think through, which in turn might make you a better programmer.</p>
-</div>
-
-<div id="post-tags">
-    <b>Tags: </b>
+        <li>
+            <a href="/posts/2014-06-28-the-cartesian-dream.html">The Cartesian Dream or Higher Order Functions</a>
+        </li>
     
-    <a href="/tags/clojure.html">clojure</a>
-    
-    <a href="/tags/higher-order-function.html">higher-order-function</a>
-    
-    <a href="/tags/functional-programming.html">functional-programming</a>
-    
-</div>
-
-
-    
-    <div id="comments">
-        <a href="/posts/2014-06-28-the-cartesian-dream.html#disqus_thread">View Comments</a>
-    </div>
-    
-
-    <div id="prev-next">
-        
-        
-    </div>
+    </ul>
 </div>
 
             </div>
@@ -142,7 +112,7 @@
 </div>
 <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
-<script src="js/highlight.pack.js" type="text/javascript"></script>
+<script src="../js/highlight.pack.js" type="text/javascript"></script>
 <script>hljs.initHighlightingOnLoad();</script>
 </body>
 </html>

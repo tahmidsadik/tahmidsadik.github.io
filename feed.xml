@@ -15,7 +15,7 @@ http://tahmid.me/
 (map reduce filter)
 </description>
 <lastBuildDate>
-Sun, 28 Jun 2015 22:39:37 +0600
+Mon, 29 Jun 2015 10:16:19 +0600
 </lastBuildDate>
 <item>
 <guid>
@@ -25,10 +25,16 @@ http://tahmid.me/posts/2014-06-28-the-cartesian-dream.html
 http://tahmid.me/posts/2014-06-28-the-cartesian-dream.html
 </link>
 <title>
-The cartesian dream
+The Cartesian Dream or Higher Order Functions
 </title>
 <description>
-&lt;p&gt;Here I will talk about the cartesian dream&lt;/p&gt;
+&lt;p&gt;I was always fascinated by the use of higher order functions. They are small, &lt;em&gt;elegant&lt;/em&gt;, consists of &lt;strong&gt;core&lt;/strong&gt; building blocks of any programming language, functions. Now, functions are simple. We all know about functions, so let's focus on the difference between them.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Higher order functions may ***take other functions*** as input.&lt;/li&gt;&lt;li&gt;Higher order functions may ***return other functions*** as output.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Let's write a function that will return another function ( just think about it for a second, You are generating a function dynamically, whoa ).&lt;/p&gt;&lt;p&gt;Here's an example in clojure&lt;/p&gt;&lt;pre&gt;&lt;code class=&quot;clojure&quot;&gt;&amp;#40;defn multiple-of-x? &amp;#91;x&amp;#93;
+  &amp;#40;fn &amp;#91;n&amp;#93; &amp;#40;zero? &amp;#40;rem n x&amp;#41;&amp;#41;&amp;#41;&amp;#41;
+
+&amp;#40;&amp;#40;multiple-of-x? 3&amp;#41; 15&amp;#41;         ;; true
+&amp;#40;&amp;#40;multiple-of-x? 5&amp;#41; 15&amp;#41;         ;; true
+&amp;#40;&amp;#40;multiple-of-x? 9&amp;#41; 15&amp;#41;         ;; false
+&lt;/code&gt;&lt;/pre&gt;The function multiple-of-x? takes a number x as input and returns a functionwhich itself takes another number n as input and returns true if n isa multiple of x, otherwise false.&lt;br /&gt;&lt;br /&gt;&lt;p&gt;Writing higher order functions might take some time, but they also tend to become much more useful. They also force you to think about generalising a problem and think through, which in turn might make you a better programmer.&lt;/p&gt;
 </description>
 <pubDate>
 Sat, 28 Jun 2014 00:00:00 +0600
