@@ -1,20 +1,42 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:200,400,500);
-@import url(http://fonts.googleapis.com/css?family=Oswald);
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,700);
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(http://fonts.googleapis.com/css?family=Inconsolata:400,700);
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: Lato;
+    /* font-family: Oswald; */
     font-weight: 400;
 }
 
 body {
-    color: #333;
-    background-color: #f2f2f2;
-    font-family: Lato,Helvetica, Arial, sans-serif;
+    /* color: #333; */
+    color: #808080;
+    background-color: #f2f2f8;
+    /* background-color: #ffffff; */
+    font-family: Inconsolata, Helvetica,Lato, Arial, sans-serif;
     font-size: 16px;
+    line-height: 150%;
+}
+
+#blog-title {
+    font-family: Inconsolata;
+    font-size: 64px;
+    color: #000000;
+    font-weight: 700;
+    margin-top: 150px;
+    padding-bottom: 60px;
+    padding-left: 40px;
+}
+
+
+#navbar a {
+    /* font-family: Lato; */
+    font-weight: 400;
+    font-size: 18px;
 }
 
 .container {
-    max-width: 1280;
+    max-width: 960px;
 }
 
 .right {
@@ -28,16 +50,18 @@ body {
 }
 
 .navbar-default {
-    background-color: #009688;
+    /* background-color: #009688; */
+    /* background-color: #fff; */
+    background-color: #fff;
     border: none;
 }
 
 .navbar-default .navbar-brand {
-    color: #fff;
-    font-family: Lato;
+    /* color: #EDEDED; */
+    color: #000000;
+
+    /* font-family: Arial; */
     font-weight: 200;
-    font-variant: large-caps;
-    font-height: 1.8;
 }
 
 .navbar-default .navbar-brand:hover {
@@ -46,6 +70,9 @@ body {
 
 .navbar-default .navbar-nav li a {
     color: #fff;
+    /* background-color: #fff; */
+    background-color: #f2f2f8;
+    /* color: #fff; */
 }
 
 .navbar-default .navbar-nav li a:hover {
@@ -55,7 +82,7 @@ body {
 
 .navbar-default .navbar-nav .active a {
     color: #fff;
-    background-color: #00796B;
+    background-color: #fff;
 }
 
 .navbar-default .navbar-toggle:hover{
@@ -68,20 +95,22 @@ body {
 
 #sidebar {
     margin-left: 15px;
-    margin-top: 50px;
+    margin-top: 150px;
+    padding-top: 100px;
+    color: rgba(0, 0, 0, 0.2);
 }
 
 #sidebar a{
+    /* font-family: Lato; */
     font-size: 16px;
     font-weight: 400;
-    color: rgba(0, 0, 0, 0.6);
-    font-style: italic;
+    color: rgba(0, 0, 0, 0.2);
 }
 
 #content {
-    /* background-color: #fff; */
+    background-color: #fff;
     border-radius: 3px;
-    /* box-shadow: 0 0 0 0,0 6px 12px rgba(34,34,34,0.1); */
+    box-shadow: 0 0 0 0,0 6px 12px rgba(34,34,34,0.1);
 }
 
 footer {
@@ -104,8 +133,8 @@ footer {
 }
 #post-header h2 {
     font-size: 32px;
-    font-family: Oswald;
-    font-weight: 400;
+    /* font-family: Oswald; */
+    font-weight: 500;
 }
 
 #post-meta {
@@ -119,6 +148,14 @@ footer {
 }
 #page-header h2 {
     font-size: 32px;
+    /* font-family: Oswald; */
+    font-weight: 500;
+    color: #828282;
+}
+
+#post-header h2 {
+    /* color: #828282; */
+    color: #3D3D3D;
 }
 
 pre {
@@ -148,8 +185,11 @@ pre, code, .hljs {
 
 @media (min-width: 400px) {
     .navbar-default .navbar-brand {
-        font-size: 22px;
-        padding: 15px 55px;
+        font-size: 64px;
+        font-weight: 700;
+        padding-left: 55px;
+        padding-right: 55px;
+        padding-top: 150px;
     }
     #content{
         margin-top: 30px;
@@ -160,7 +200,7 @@ pre, code, .hljs {
 
 @media (max-width: 399px) {
     body{
-        font-size: 14px;
+        font-size: 16px;
     }
     .navbar-default .navbar-brand {
         font-size: 30px;

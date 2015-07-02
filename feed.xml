@@ -6,7 +6,7 @@
 clj-rss
 </generator>
 <title>
-Lazy Lambda
+LAZY LAMBDA
 </title>
 <link>
 http://tahmid.me/
@@ -15,14 +15,31 @@ http://tahmid.me/
 (map reduce filter)
 </description>
 <lastBuildDate>
-Tue, 30 Jun 2015 16:55:04 +0600
+Thu, 02 Jul 2015 15:45:39 +0600
 </lastBuildDate>
 <item>
 <guid>
-http://tahmid.me/posts/2014-06-28-the-cartesian-dream.html
+http://tahmid.me/posts/2015-07-01-why-data-structures-are-awesome.html
 </guid>
 <link>
-http://tahmid.me/posts/2014-06-28-the-cartesian-dream.html
+http://tahmid.me/posts/2015-07-01-why-data-structures-are-awesome.html
+</link>
+<title>
+Why Data Structures Are Awesome
+</title>
+<description>
+&lt;p&gt; &quot;why data structures ? We already have class&quot;, you ask ? well What I am gonna  say to you might hurt your feelings, so don't blame me later.&lt;/p&gt;
+</description>
+<pubDate>
+Wed, 01 Jul 2015 00:00:00 +0600
+</pubDate>
+</item>
+<item>
+<guid>
+http://tahmid.me/posts/2015-06-28-the-cartesian-dream.html
+</guid>
+<link>
+http://tahmid.me/posts/2015-06-28-the-cartesian-dream.html
 </link>
 <title>
 The Cartesian Dream or Higher Order Functions
@@ -37,7 +54,7 @@ The Cartesian Dream or Higher Order Functions
 &lt;/code&gt;&lt;/pre&gt;The function multiple-of-x? takes a number x as input and returns a functionwhich itself takes another number n as input and returns true if n isa multiple of x, otherwise false.&lt;br /&gt;&lt;br /&gt;&lt;p&gt;Writing higher order functions might take some time, but they also tend to become much more useful. They also force you to think about generalising a problem and think through, which in turn might make you a better programmer.&lt;/p&gt;
 </description>
 <pubDate>
-Sat, 28 Jun 2014 00:00:00 +0600
+Sun, 28 Jun 2015 00:00:00 +0600
 </pubDate>
 </item>
 </channel>

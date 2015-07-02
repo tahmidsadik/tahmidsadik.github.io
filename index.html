@@ -13,7 +13,7 @@
         ga('send', 'pageview');
 
     </script>
-    <title>Lazy Lambda</title>
+    <title>LAZY LAMBDA</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href='http://fonts.googleapis.com/css?family=Alegreya:400italic,700italic,400,700' rel='stylesheet'
           type='text/css'>
@@ -25,55 +25,47 @@
 <body>
 
 
-<nav class="navbar navbar-default">
-    <div class="container">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="/index.html">Lazy Lambda</a>
-        </div>
-        <div id="navbar" class="navbar-collapse collapse">
-            <ul class="nav navbar-nav navbar-right">
-                <li  class="active" ><a href="/index.html">Home</a></li>
-                <li
-                ><a href="/archives.html">Archives</a></li>
-                
-                <li><a href="/feed.xml">RSS</a></li>
-            </ul>
-        </div><!--/.nav-collapse -->
-    </div><!--/.container-fluid -->
-</nav>
-
+<!-- <nav class="navbar navbar&#45;default"> -->
+<!--     <div class="container"> -->
+<!--         <div class="navbar&#45;header"> -->
+<!--             <button type="button" class="navbar&#45;toggle collapsed" data&#45;toggle="collapse" data&#45;target="#navbar" aria&#45;expanded="false" aria&#45;controls="navbar"> -->
+<!--                 <span class="sr&#45;only">Toggle navigation</span> -->
+<!--                 <span class="icon&#45;bar"></span> -->
+<!--                 <span class="icon&#45;bar"></span> -->
+<!--                 <span class="icon&#45;bar"></span> -->
+<!--             </button> -->
+<!--             <a class="navbar&#45;brand" href="">LAZY LAMBDA</a> -->
+<!--         </div> -->
+<!--         <div id="navbar" class="navbar&#45;collapse collapse"> -->
+<!--             <ul class="nav navbar&#45;nav navbar&#45;right"> -->
+<!--                 <li  class="active" ><a href="">Home</a></li> -->
+<!--                 <li -->
+<!--                 ><a href="">Archives</a></li> -->
+<!--                  -->
+<!--                 <li><a href="">RSS</a></li> -->
+<!--             </ul> -->
+<!--         </div><!&#45;&#45;/.nav&#45;collapse &#45;&#45;> -->
+<!--     </div><!&#45;&#45;/.container&#45;fluid &#45;&#45;> -->
+<!-- </nav> -->
 
 <div class="container">
-
-
     <div class="row">
         <div class="col-lg-9">
+            <div id="blog-title">LAZY LAMBDA</div>
             <div id="content">
                 
 <div id="post">
     <div id="post-header">
-    <h2>The Cartesian Dream or Higher Order Functions</h2>
+    <h2>Why Data Structures Are Awesome</h2>
     <div id="post-meta" class="row">
-        <div class="col-lg-6">June 28, 2014</div>
+        <div class="col-lg-6">July 1, 2015</div>
         
     </div>
     <hr/>
 </div>
 <div>
     
-    <p>I was always fascinated by the use of higher order functions. They are small, <em>elegant</em>, consists of <strong>core</strong> building blocks of any programming language, functions. Now, functions are simple. We all know about functions, so let's focus on the difference between them.</p><ul><li>Higher order functions may <i><strong>take other functions</strong></i> as input.</li><li>Higher order functions may <i><strong>return other functions</strong></i> as output.</li></ul><p>Let's write a function that will return another function ( just think about it for a second, You are generating a function dynamically, whoa ).</p><p>Here's an example in clojure</p><pre><code class="clojure">&#40;defn multiple-of-x? &#91;x&#93;
-  &#40;fn &#91;n&#93; &#40;zero? &#40;rem n x&#41;&#41;&#41;&#41;
-
-&#40;&#40;multiple-of-x? 3&#41; 15&#41;         ;; true
-&#40;&#40;multiple-of-x? 5&#41; 15&#41;         ;; true
-&#40;&#40;multiple-of-x? 9&#41; 15&#41;         ;; false
-</code></pre>The function multiple-of-x? takes a number x as input and returns a functionwhich itself takes another number n as input and returns true if n isa multiple of x, otherwise false.<br /><br /><p>Writing higher order functions might take some time, but they also tend to become much more useful. They also force you to think about generalising a problem and think through, which in turn might make you a better programmer.</p>
+    <p> "why data structures ? We already have class", you ask ? well What I am gonna  say to you might hurt your feelings, so don't blame me later.</p>
 </div>
 
 <div id="post-tags">
@@ -81,21 +73,25 @@
     
     <a href="/tags/clojure.html">clojure</a>
     
-    <a href="/tags/higher-order-function.html">higher-order-function</a>
+    <a href="/tags/data-structures.html">data-structures</a>
     
-    <a href="/tags/functional-programming.html">functional-programming</a>
+    <a href="/tags/immutable.html">immutable</a>
+    
+    <a href="/tags/persistent.html">persistent</a>
     
 </div>
 
 
     
     <div id="comments">
-        <a href="/posts/2014-06-28-the-cartesian-dream.html#disqus_thread">View Comments</a>
+        <a href="/posts/2015-07-01-why-data-structures-are-awesome.html#disqus_thread">View Comments</a>
     </div>
     
 
     <div id="prev-next">
         
+        
+        <a class="right" href="/posts/2015-06-28-the-cartesian-dream.html">The Cartesian Dream or Higher Order Functions &raquo;</a>
         
     </div>
 </div>
@@ -110,7 +106,9 @@
                     <h3>Recent Posts</h3>
                     <ul>
                         
-                        <li><a href="/posts/2014-06-28-the-cartesian-dream.html">The Cartesian Dream or Higher Order Functions</a></li>
+                        <li><a href="/posts/2015-07-01-why-data-structures-are-awesome.html">Why Data Structures Are Awesome</a></li>
+                        
+                        <li><a href="/posts/2015-06-28-the-cartesian-dream.html">The Cartesian Dream or Higher Order Functions</a></li>
                         
                     </ul>
                 </div>
@@ -123,6 +121,12 @@
                         <li><a href="/tags/functional-programming.html">functional-programming</a></li>
                         
                         <li><a href="/tags/higher-order-function.html">higher-order-function</a></li>
+                        
+                        <li><a href="/tags/persistent.html">persistent</a></li>
+                        
+                        <li><a href="/tags/immutable.html">immutable</a></li>
+                        
+                        <li><a href="/tags/data-structures.html">data-structures</a></li>
                         
                         <li><a href="/tags/clojure.html">clojure</a></li>
                         
