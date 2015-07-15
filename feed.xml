@@ -15,7 +15,7 @@ http://tahmid.me/
 (map reduce filter)
 </description>
 <lastBuildDate>
-Fri, 03 Jul 2015 03:00:01 +0600
+Wed, 15 Jul 2015 06:36:47 +0600
 </lastBuildDate>
 <item>
 <guid>
@@ -51,7 +51,7 @@ The Cartesian Dream or Higher Order Functions
 &amp;#40;&amp;#40;multiple-of-x? 3&amp;#41; 15&amp;#41;         ;; true
 &amp;#40;&amp;#40;multiple-of-x? 5&amp;#41; 15&amp;#41;         ;; true
 &amp;#40;&amp;#40;multiple-of-x? 9&amp;#41; 15&amp;#41;         ;; false
-&lt;/code&gt;&lt;/pre&gt;The function multiple-of-x? takes a number x as input and returns a functionwhich itself takes another number n as input and returns true if n isa multiple of x, otherwise false.&lt;br /&gt;&lt;br /&gt;&lt;p&gt;Writing higher order functions might take some time, but they also tend to become much more useful. They also force you to think about generalising a problem and think through, which in turn might make you a better programmer.&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;The function multiple-of-x? takes a number x as input and returns a functionwhich itself takes another number n as input and returns true if n isa multiple of x, otherwise false.&lt;br /&gt;&lt;p&gt;Writing higher order functions might take some time, but they also tend to become much more useful. They also force you to think about generalising a problem and think through, which in turn might make you a better programmer.&lt;/p&gt;
 </description>
 <pubDate>
 Sun, 28 Jun 2015 00:00:00 +0600

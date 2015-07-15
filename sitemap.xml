@@ -5,7 +5,7 @@
 http://tahmid.me/404.html
 </loc>
 <lastmod>
-2015-07-03
+2015-07-15
 </lastmod>
 </url>
 <url>
@@ -13,7 +13,7 @@ http://tahmid.me/404.html
 http://tahmid.me/archives.html
 </loc>
 <lastmod>
-2015-07-03
+2015-07-15
 </lastmod>
 </url>
 <url>
@@ -21,7 +21,7 @@ http://tahmid.me/archives.html
 http://tahmid.me/index.html
 </loc>
 <lastmod>
-2015-07-03
+2015-07-15
 </lastmod>
 </url>
 <url>
@@ -29,7 +29,7 @@ http://tahmid.me/index.html
 http://tahmid.me/pages/about-me.html
 </loc>
 <lastmod>
-2015-07-03
+2015-07-15
 </lastmod>
 </url>
 <url>
@@ -37,7 +37,7 @@ http://tahmid.me/pages/about-me.html
 http://tahmid.me/posts/2015-06-28-the-cartesian-dream.html
 </loc>
 <lastmod>
-2015-07-03
+2015-07-15
 </lastmod>
 </url>
 <url>
@@ -45,7 +45,7 @@ http://tahmid.me/posts/2015-06-28-the-cartesian-dream.html
 http://tahmid.me/posts/2015-07-01-why-data-structures-are-awesome.html
 </loc>
 <lastmod>
-2015-07-03
+2015-07-15
 </lastmod>
 </url>
 <url>
@@ -53,7 +53,7 @@ http://tahmid.me/posts/2015-07-01-why-data-structures-are-awesome.html
 http://tahmid.me/tags/clojure.html
 </loc>
 <lastmod>
-2015-07-03
+2015-07-15
 </lastmod>
 </url>
 <url>
@@ -61,7 +61,7 @@ http://tahmid.me/tags/clojure.html
 http://tahmid.me/tags/data-structures.html
 </loc>
 <lastmod>
-2015-07-03
+2015-07-15
 </lastmod>
 </url>
 <url>
@@ -69,7 +69,7 @@ http://tahmid.me/tags/data-structures.html
 http://tahmid.me/tags/functional-programming.html
 </loc>
 <lastmod>
-2015-07-03
+2015-07-15
 </lastmod>
 </url>
 <url>
@@ -77,7 +77,7 @@ http://tahmid.me/tags/functional-programming.html
 http://tahmid.me/tags/higher-order-function.html
 </loc>
 <lastmod>
-2015-07-03
+2015-07-15
 </lastmod>
 </url>
 <url>
@@ -85,7 +85,7 @@ http://tahmid.me/tags/higher-order-function.html
 http://tahmid.me/tags/immutable.html
 </loc>
 <lastmod>
-2015-07-03
+2015-07-15
 </lastmod>
 </url>
 <url>
@@ -93,7 +93,7 @@ http://tahmid.me/tags/immutable.html
 http://tahmid.me/tags/persistent.html
 </loc>
 <lastmod>
-2015-07-03
+2015-07-15
 </lastmod>
 </url>
 </urlset>
