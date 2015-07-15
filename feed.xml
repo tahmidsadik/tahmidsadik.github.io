@@ -15,23 +15,23 @@ http://tahmid.me/
 (map reduce filter)
 </description>
 <lastBuildDate>
-Wed, 15 Jul 2015 06:36:47 +0600
+Wed, 15 Jul 2015 08:00:29 +0600
 </lastBuildDate>
 <item>
 <guid>
-http://tahmid.me/posts/2015-07-01-why-data-structures-are-awesome.html
+http://tahmid.me/posts/2015-07-15-bootstrapped-cljs-repl-for-android.html
 </guid>
 <link>
-http://tahmid.me/posts/2015-07-01-why-data-structures-are-awesome.html
+http://tahmid.me/posts/2015-07-15-bootstrapped-cljs-repl-for-android.html
 </link>
 <title>
-Why Data Structures Are Awesome
+Replicator: Bootstrapped ClojureScript REPL for Android
 </title>
 <description>
-&lt;p&gt; &quot;why data structures ? We already have class&quot;, you ask ? well What I am gonna  say to you might hurt your feelings, so don't blame me later.&lt;/p&gt;
+&lt;p&gt; With the recent developments of bootstrapping ClojureScript and &lt;a href='https://github.com/mfikes'&gt;Replete's&lt;/a&gt;  success on iOS, I thought  I would make a stand-alone ClojureScript REPL for Android too. The app would  need to evaluate javascript on the fly and for this there were two choices - either to  use a webview or a stand-alone javascript engine. I choose Mozilla's Rhino  Engine because It was easy to get started. But  performance-wise Rhino is not very good. So I plan to use  the JavaScriptCore engine later, which is also being used by Facebook's  React-Native to evaluate js in both iOS and Android.&lt;br /&gt;  &lt;center&gt;&lt;img src=&quot;../img/replicator.png&quot; width=&quot;223&quot; height=&quot;380&quot; /&gt;&lt;/center&gt; &lt;br/&gt;  While developing the app, I get to know at first hand how cool and friendly the Clojure community is.  The author of Replete Mike Fikes Guided me throughout the project and explained  the process of bootstrapping. Thanks a lot Mike.&lt;/p&gt;&lt;p&gt;&lt;br/&gt;  The app is in very early stage and needs tons of work and polish to make it usable.  I will release it as a free app in the Google Play Store. You can checkout  the project in &lt;a href='https://github.com/tahmidsadik112/Replicator'&gt;Github&lt;/a&gt;. Pull  requests are welcome.&lt;/p&gt;
 </description>
 <pubDate>
-Wed, 01 Jul 2015 00:00:00 +0600
+Wed, 15 Jul 2015 00:00:00 +0600
 </pubDate>
 </item>
 <item>

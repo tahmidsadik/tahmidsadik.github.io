@@ -32,15 +32,16 @@ body {
     font-size: 64px;
     /* color: #000000; */
     /* color: #e74c3c; */
+    color: #2D6594;
     line-height: 100%;
     font-weight: 700;
     margin-top: 120px;
     padding-left: 40px;
     padding-right: 40px;
-
+} 
+#blog-title a {
+    color: #2D6594;
 }
-
-
 
 #navbar a {
     /* font-family: Lato; */

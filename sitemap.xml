@@ -42,7 +42,15 @@ http://tahmid.me/posts/2015-06-28-the-cartesian-dream.html
 </url>
 <url>
 <loc>
-http://tahmid.me/posts/2015-07-01-why-data-structures-are-awesome.html
+http://tahmid.me/posts/2015-07-15-bootstrapped-cljs-repl-for-android.html
+</loc>
+<lastmod>
+2015-07-15
+</lastmod>
+</url>
+<url>
+<loc>
+http://tahmid.me/tags/Android.html
 </loc>
 <lastmod>
 2015-07-15
@@ -58,7 +66,7 @@ http://tahmid.me/tags/clojure.html
 </url>
 <url>
 <loc>
-http://tahmid.me/tags/data-structures.html
+http://tahmid.me/tags/ClojureScript.html
 </loc>
 <lastmod>
 2015-07-15
@@ -82,7 +90,7 @@ http://tahmid.me/tags/higher-order-function.html
 </url>
 <url>
 <loc>
-http://tahmid.me/tags/immutable.html
+http://tahmid.me/tags/Replete.html
 </loc>
 <lastmod>
 2015-07-15
@@ -90,7 +98,7 @@ http://tahmid.me/tags/immutable.html
 </url>
 <url>
 <loc>
-http://tahmid.me/tags/persistent.html
+http://tahmid.me/tags/Replicator.html
 </loc>
 <lastmod>
 2015-07-15
